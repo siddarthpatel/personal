@@ -1,0 +1,19 @@
+.container-w{
+  background-color: #2BB1F4;
+}
+
+.sub-container-w{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color:white;
+  background:#2BB1F4;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:300px;
+  border-bottom: 2px solid;
+}

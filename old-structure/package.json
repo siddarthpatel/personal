@@ -11,6 +11,7 @@
   "author": "Siddarth Patel",
   "license": "ISC",
   "dependencies": {
+    "@react-spring/parallax": "^9.7.5",
     "babel-cli": "6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
