@@ -1,5 +1,5 @@
 import React from 'react';
-import { ParallaxLayer } from 'react-spring'
+// import { ParallaxLayer } from 'react-spring'
 
 const Footer = () => {
   return(
@@ -8,7 +8,6 @@ const Footer = () => {
           <a title="resume" href="/media/resume.pdf" target="_blank"><i className="fas fa-file-alt"></i></a>
           <a href="https://github.com/siddarthpatel" target="_blank"><i className="fab fa-github-alt"></i></a>
           <a href="https://www.linkedin.com/in/siddarthpatel/" target="_blank"><i className="fab fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/siddarth.patel.16" target="_blank"><i className="fab fa-facebook"></i></a>
         </p>
       </div>
   );

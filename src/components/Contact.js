@@ -1,5 +1,5 @@
 import React from 'react';
-import { ParallaxLayer } from 'react-spring'
+import { ParallaxLayer } from '@react-spring/parallax'
 import '../styles/components/contact.css'
 
 const Contact = (props) => {
