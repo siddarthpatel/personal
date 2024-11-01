@@ -1,0 +1,17 @@
+.about-container {
+    margin-top: 75px;
+    // text-align: center;
+
+    &-personal {
+        position: relative;
+        left: 35%;
+        width: 30%;
+        background-color: gray;
+    }
+    &-bio {
+        position: relative;
+        left: 35%;
+        width: 30%;
+        background-color: antiquewhite;
+    }
+}

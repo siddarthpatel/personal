@@ -1,3 +1,10 @@
 .navbar-container {
-    background-color: Red;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    &-items {
+        width: 200px;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }

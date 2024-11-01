@@ -1,9 +1,9 @@
 html {
-  font-size: 62.5%;
+  font-size: 75.5%;
 }
 
 body {
-  font-family: 'Kanit', sans-serif;
+  font-family: "Inter", "Times New Roman", Times, serif, sans-serif;
   font-size: 1.6rem;
   background: white;
 }
@@ -18,20 +18,11 @@ button:disabled{
 a:link {
     text-decoration: inherit;
     color: inherit;
-    padding-bottom: 3px;
     cursor: pointer;
 }
 
 a:visited {
     text-decoration: inherit;
     color: inherit;
-    padding-bottom: 3px;
     cursor: pointer;
-}
-
-i {
-  margin-right: 20px;
-  margin-left: 15px;
-  font-size: 20px;
-  cursor: pointer;
 }

@@ -16,14 +16,6 @@ function NoMatch() {
 const App = () => {
   return (
     <Router>
-      {/* <nav style={{ margin: 10 }}>
-        <Link to="/" style={{ padding: 5 }}>
-          About
-        </Link>
-        <Link to="/contact" style={{ padding: 5 }}>
-          Contact
-        </Link>
-      </nav> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
