@@ -5,7 +5,8 @@ module.exports = {
   mode: 'development',
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   module:{
     rules:[{
@@ -23,6 +24,7 @@ module.exports = {
   },
   devtool: 'eval-cheap-module-source-map',
   devServer: {
-    static: path.join(__dirname, 'public')
+    static: path.join(__dirname, 'public'),
+    historyApiFallback: true
   }
 };

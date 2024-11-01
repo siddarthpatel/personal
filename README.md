@@ -14,3 +14,6 @@ npm start
 npm install -g npm-check-updates
 ncu -u
 ```
+
+### References:
+https://ui.dev/react-router-cannot-get-url-refresh
