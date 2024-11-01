@@ -1,11 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/index.js',
   mode: 'development',
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   module:{
     rules:[{
@@ -23,6 +24,7 @@ module.exports = {
   },
   devtool: 'eval-cheap-module-source-map',
   devServer: {
-    static: path.join(__dirname, 'public')
+    static: path.join(__dirname, 'public'),
+    historyApiFallback: true
   }
 };

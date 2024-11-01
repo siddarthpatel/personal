@@ -1,16 +1,12 @@
 import React from 'react';
-import { ParallaxLayer } from '@react-spring/parallax'
-import '../styles/components/contact.css'
+// import ReactDOM from 'react-dom/client';
 
-const Contact = (props) => {
-  return(
-      <ParallaxLayer offset={props.offset} speed={props.speed}  onClick={props.onClick} className="container-c">
-          <div className="sub-container-c">
-            <h1>Find me at,</h1>
-            <h2>siddarthpatel97@gmail.com</h2>
-          </div>
-      </ParallaxLayer>
-  );
+const Contact = () => {
+    return (
+        <div className='contact-container'>
+            1234567890
+        </div>
+    );
 };
 
-export default Contact;
+export default Contact
