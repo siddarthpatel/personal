@@ -2,6 +2,7 @@ import React from 'react';
 import {   BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
+import Navbar from './NavBar';
 
 function NoMatch() {
   return (
@@ -15,14 +16,15 @@ function NoMatch() {
 const App = () => {
   return (
     <Router>
-      <nav style={{ margin: 10 }}>
+      {/* <nav style={{ margin: 10 }}>
         <Link to="/" style={{ padding: 5 }}>
           About
         </Link>
         <Link to="/contact" style={{ padding: 5 }}>
           Contact
         </Link>
-      </nav>
+      </nav> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/contact" element={<Contact />} />
