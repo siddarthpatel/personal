@@ -17,3 +17,4 @@ ncu -u
 
 ### References:
 https://ui.dev/react-router-cannot-get-url-refresh
+https://www.freecodecamp.org/news/css-positioning-position-absolute-and-relative/
