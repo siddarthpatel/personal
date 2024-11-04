@@ -7,18 +7,19 @@
         &-details {
             display: flex;
             .pic {
-                margin-right: 30px;
+                margin-right: 25px;
                 margin-left: 5px;
                 padding-top: 0.5rem;
                 img {
-                    width: 75px;
-                    height: 75px;
+                    width: 85px;
+                    height: 85px;
                 }
             }
             .occupation {
-                padding-top: 1.8rem;
+                padding-top: 2.5rem;
                 h3 {
                     margin: auto;
+                    font-size: 1.3rem;
                 }
                 p {
                     margin: auto;
