@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
+import { AnimatePresence } from 'framer-motion';
+
 // import Navbar from './NavBar';
 
 function NoMatch() {
@@ -17,11 +19,13 @@ const App = () => {
   return (
     <Router>
       {/* <Navbar /> */}
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NoMatch />} />
-      </Routes>
+      <AnimatePresence mode='wait'>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NoMatch />} />
+        </Routes>
+      </AnimatePresence>
     </Router>
   );
 }
