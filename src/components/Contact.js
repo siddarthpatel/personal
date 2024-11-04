@@ -1,10 +1,15 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
+import Navbar from './NavBar';
+import { useLocation } from 'react-router-dom';
 
 const Contact = () => {
+    const match = useLocation()
     return (
-        <div className='contact-container'>
-            1234567890
+        <div>
+            <Navbar path={match.pathname} />
+            <div className='contact-container'>
+                1234567890
+            </div>
         </div>
     );
 };

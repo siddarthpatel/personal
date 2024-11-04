@@ -1,8 +1,8 @@
 import React from 'react';
-import {   BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
-import Navbar from './NavBar';
+// import Navbar from './NavBar';
 
 function NoMatch() {
   return (
@@ -16,7 +16,7 @@ function NoMatch() {
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/contact" element={<Contact />} />
