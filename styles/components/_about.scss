@@ -1,10 +1,9 @@
 .about-container {
     margin-top: 75px;
-    // text-align: center;
+    position: relative;
+    left: 37%;
+    width: 30%;
     &-personal {
-        position: relative;
-        left: 35%;
-        width: 30%;
         &-details {
             display: flex;
             .pic {
@@ -29,16 +28,7 @@
         }
     }
     &-bio {
-        position: relative;
-        left: 35%;
-        width: 30%;
         margin-top: 50px;
-        // p {
-        //     margin: auto;
-        // }
-        // .title {
-
-        // }
         .info {
             margin-top: 10px;
             p {

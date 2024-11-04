@@ -8,7 +8,22 @@ const Contact = () => {
         <div>
             <Navbar path={match.pathname} />
             <div className='contact-container'>
-                1234567890
+                <div className='title'>
+                    <p>Contact</p>
+                </div>
+                <div className='info'>
+                    <p>Feel free to shoot me an email at siddarthjpatel@gmail.com.</p>
+                </div>
+                <div className='links'>
+                    <div className='title'>
+                        <p>Other links</p>
+                    </div>
+                    <div className='info'>
+                        <div>Linkedin<a href='https://linkedin.com/in/siddarthpatel' target='_blank'>siddarthpatel</a></div>
+                        <div>Resume<a href='https://github.com/siddarthpatel' target='_blank'>siddarth_patel</a></div>
+                        <div>Github<a href='https://github.com/siddarthpatel' target='_blank'>siddarthpatel</a></div>
+                    </div>
+                </div>
             </div>
         </div>
     );
