@@ -1,4 +1,5 @@
 const path = require('path');
+const loader = require('sass-loader');
 
 module.exports = {
   entry: './src/index.js',
@@ -18,9 +19,16 @@ module.exports = {
       use: [
         'style-loader',
         'css-loader',
-        'sass-loader'
+        'sass-loader',
       ]
-    }]
+    }, {
+      test: /\.(png|jpe?g|gif)$/i,
+      use: [
+        {
+          loader: 'url-loader',
+        },
+      ],
+    },]
   },
   devtool: 'eval-cheap-module-source-map',
   devServer: {

@@ -1,17 +1,55 @@
 .about-container {
     margin-top: 75px;
     // text-align: center;
-
     &-personal {
         position: relative;
         left: 35%;
         width: 30%;
-        background-color: gray;
+        &-details {
+            display: flex;
+            .pic {
+                margin-right: 30px;
+                margin-left: 5px;
+                padding-top: 0.5rem;
+                img {
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+            .occupation {
+                padding-top: 1.8rem;
+                h3 {
+                    margin: auto;
+                }
+                p {
+                    margin: auto;
+                    color: gray;
+                }
+            }
+        }
     }
     &-bio {
         position: relative;
         left: 35%;
         width: 30%;
-        background-color: antiquewhite;
+        margin-top: 50px;
+        // p {
+        //     margin: auto;
+        // }
+        // .title {
+
+        // }
+        .info {
+            margin-top: 10px;
+            p {
+                color: gray;
+            }
+            a:link {
+                text-decoration: underline;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+        }
     }
 }
