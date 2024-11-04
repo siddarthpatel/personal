@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './NavBar';
 import { useLocation } from 'react-router-dom';
+import resume from '../../public/media/Resume.pdf';
 
 const Contact = () => {
     const match = useLocation()
@@ -20,7 +21,7 @@ const Contact = () => {
                     </div>
                     <div className='info'>
                         <div>Linkedin<a href='https://linkedin.com/in/siddarthpatel' target='_blank'>siddarthpatel</a></div>
-                        <div>Resume<a href='https://github.com/siddarthpatel' target='_blank'>siddarth_patel</a></div>
+                        <div>Resume<a href={resume} target='_blank'>siddarth_patel</a></div>
                         <div>Github<a href='https://github.com/siddarthpatel' target='_blank'>siddarthpatel</a></div>
                     </div>
                 </div>

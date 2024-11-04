@@ -28,6 +28,17 @@ module.exports = {
           loader: 'url-loader',
         },
       ],
+    },
+    {
+      test: /\.(pdf)$/,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }
+        }
+      ]
     },]
   },
   devtool: 'eval-cheap-module-source-map',
