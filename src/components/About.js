@@ -41,8 +41,7 @@ const About = () => {
                                 that want to get deployed on hyperscalers like AWS, Azzure and IBM cloud.
                             </p>
                             <p>
-                                Outside of work, I enjoy working on <a href={'https://github.com/org-not-included'} target="_blank">open source projects</a>, learning about <a href={'https://github.com/siddarthpatel/ds-tour/tree/main/DESIGN'} target='_blank'>system design</a>, and
-                                <a href={'https://github.com/siddarthpatel/data-processing'} target="_blank"> data engineering.</a>
+                                Outside of work, I enjoy working on <a href={'https://github.com/org-not-included'} target="_blank">open source projects</a>, learning about <a href={'https://github.com/siddarthpatel/ds-tour/tree/main/DESIGN'} target='_blank'>system design</a>, and <a href={'https://github.com/siddarthpatel/data-processing'} target="_blank">data engineering.</a>
                             </p>
                         </div>
                     </div>      
