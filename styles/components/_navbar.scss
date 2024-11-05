@@ -1,0 +1,14 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    &-items {
+        width: 170px;
+        display: flex;
+        justify-content: space-evenly;
+        color: gray;
+        .selected {
+            color: black;
+        }
+    }
+}

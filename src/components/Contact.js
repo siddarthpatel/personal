@@ -1,16 +1,36 @@
 import React from 'react';
-import { ParallaxLayer } from '@react-spring/parallax'
-import '../styles/components/contact.css'
+import Navbar from './NavBar';
+import { useLocation } from 'react-router-dom';
+import resume from '../../public/media/Resume.pdf';
+import { motion } from 'framer-motion';
 
-const Contact = (props) => {
-  return(
-      <ParallaxLayer offset={props.offset} speed={props.speed}  onClick={props.onClick} className="container-c">
-          <div className="sub-container-c">
-            <h1>Find me at,</h1>
-            <h2>siddarthpatel97@gmail.com</h2>
-          </div>
-      </ParallaxLayer>
-  );
+const Contact = () => {
+    const match = useLocation()
+    return (
+        <div>
+            <Navbar path={match.pathname} />
+            <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration:0.5}}>
+                <div className='contact-container'>
+                    <div className='title'>
+                        <p>Contact</p>
+                    </div>
+                    <div className='info'>
+                        <p>Feel free to send me message on <a href={'https://x.com/GojoSatoru27788'} target='_blank'>twitter</a> or you can also send me an email at siddarthjpatel@gmail.com.</p>
+                    </div>
+                    <div className='links'>
+                        <div className='title'>
+                            <p>Other links</p>
+                        </div>
+                        <div className='info'>
+                            <div>Linkedin<a href='https://linkedin.com/in/siddarthpatel' target='_blank'>siddarthpatel</a></div>
+                            <div>Resume<a href={resume} target='_blank'>siddarth_patel</a></div>
+                            <div>Github<a href='https://github.com/siddarthpatel' target='_blank'>siddarthpatel</a></div>
+                        </div>
+                    </div>
+                </div>
+            </motion.div>
+        </div>
+    );
 };
 
-export default Contact;
+export default Contact

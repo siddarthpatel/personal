@@ -1,11 +1,13 @@
 const path = require('path');
+const loader = require('sass-loader');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/index.js',
   mode: 'development',
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   module:{
     rules:[{
@@ -17,12 +19,31 @@ module.exports = {
       use: [
         'style-loader',
         'css-loader',
-        'sass-loader'
+        'sass-loader',
       ]
-    }]
+    }, {
+      test: /\.(png|jpe?g|gif)$/i,
+      use: [
+        {
+          loader: 'url-loader',
+        },
+      ],
+    },
+    {
+      test: /\.(pdf)$/,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }
+        }
+      ]
+    },]
   },
   devtool: 'eval-cheap-module-source-map',
   devServer: {
-    static: path.join(__dirname, 'public')
+    static: path.join(__dirname, 'public'),
+    historyApiFallback: true
   }
 };

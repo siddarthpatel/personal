@@ -1,0 +1,42 @@
+.contact-container {
+    margin-top: 145px;
+    position: relative;
+    left: 40%;
+    width: 24%;
+    .info {
+        a {
+            color: black;
+        }
+        a:link {
+            text-decoration: underline;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        p {
+            color: gray;
+        }
+    }
+    .links {
+        margin-top: 100px;
+        .info {
+            margin-top: 15px;
+            div {
+                display: flex;
+                width: 250px;
+                justify-content: space-between;
+                color: gray;
+                margin-bottom: 30px;
+                a {
+                    color: black;
+                }
+                a:link {
+                    text-decoration: underline;
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

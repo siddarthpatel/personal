@@ -1,0 +1,46 @@
+.about-container {
+    margin-top: 125px;
+    position: relative;
+    left: 37%;
+    width: 30%;
+    &-personal {
+        &-details {
+            display: flex;
+            .pic {
+                margin-right: 25px;
+                margin-left: 5px;
+                padding-top: 0.5rem;
+                img {
+                    width: 85px;
+                    height: 85px;
+                }
+            }
+            .occupation {
+                padding-top: 2.5rem;
+                h3 {
+                    margin: auto;
+                    font-size: 1.3rem;
+                }
+                p {
+                    margin: auto;
+                    color: gray;
+                }
+            }
+        }
+    }
+    &-bio {
+        margin-top: 50px;
+        .info {
+            margin-top: 10px;
+            p {
+                color: gray;
+            }
+            a:link {
+                text-decoration: underline;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
