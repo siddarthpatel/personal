@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './NavBar';
+import Navbar from './Navbar';
 import { useLocation } from 'react-router-dom';
 import resume from '../../public/media/Resume.pdf';
 import { motion } from 'framer-motion';

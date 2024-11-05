@@ -1,6 +1,6 @@
 import React from 'react';
 import pic from '../../public/media/pic.png';
-import Navbar from './NavBar';
+import Navbar from './Navbar';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
