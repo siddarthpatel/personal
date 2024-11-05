@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
+  "engines": {
+    "node": "^20.18.0",
+    "npm": "^10.8.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch",
@@ -29,14 +34,14 @@
     "font-awesome": "^4.7.0",
     "framer-motion": "^11.11.11",
     "live-server": "^1.2.2",
-    "node-sass": "9.0.0",
     "normalize.css": "8.0.1",
     "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-modal": "3.16.1",
     "react-router-dom": "^6.27.0",
-    "sass-loader": "16.0.3",
+    "sass": "^1.80.6",
+    "sass-loader": "^16.0.3",
     "style-loader": "4.0.0",
     "url-loader": "^4.1.1",
     "validator": "^13.12.0",
