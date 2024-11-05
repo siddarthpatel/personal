@@ -15,7 +15,7 @@ const Contact = () => {
                         <p>Contact</p>
                     </div>
                     <div className='info'>
-                        <p>Feel free to shoot me an email at siddarthjpatel@gmail.com.</p>
+                        <p>Feel free to send me message on <a href={'https://x.com/GojoSatoru27788'} target='_blank'>twitter</a> or you can also send me an email at siddarthjpatel@gmail.com.</p>
                     </div>
                     <div className='links'>
                         <div className='title'>

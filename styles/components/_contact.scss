@@ -4,6 +4,15 @@
     left: 40%;
     width: 27%;
     .info {
+        a {
+            color: black;
+        }
+        a:link {
+            text-decoration: underline;
+        }
+        a:hover {
+            text-decoration: none;
+        }
         p {
             color: gray;
         }
