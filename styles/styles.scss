@@ -1,4 +1,4 @@
-@import "./base/base";
-@import "./components/navbar";
-@import "./components/about";
-@import "./components/contact";
+@use "base/base";
+@use "components/navbar";
+@use "components/about";
+@use "components/contact";
