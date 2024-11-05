@@ -45,5 +45,8 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, 'public'),
     historyApiFallback: true
+  },
+  resolve: {
+    extensions: [".ts", ".js"],
   }
 };
