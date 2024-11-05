@@ -10,6 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch",
+    "clean": "rm -rf node_modules && rm -rf public/bundle.js && rm -rf public/Resume.pdf",
     "start": "webpack-dev-server",
     "prod-build": "webpack --mode production",
     "prod-start": "npm i --omit=dev && npm run prod-build && node server.js"
