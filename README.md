@@ -5,7 +5,7 @@ My personal portfolio web app.
 ```
 npm i
 npm run dev-build
-npm dev-start
+npm run dev-start
 
 ```
 
