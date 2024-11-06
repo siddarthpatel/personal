@@ -48,8 +48,8 @@
 .about-container-mobile {
     margin-top: 175px;
     position: relative;
-    left: 23%;
-    width: 60%;
+    left: 18%;
+    width: 70%;
     .about-container-personal {
         .about-container-personal-details {
             display: flex;
@@ -58,27 +58,27 @@
                 margin-left: 5px;
                 padding-top: 0.5rem;
                 img {
-                    width: 85px;
-                    height: 85px;
+                    width: 115px;
+                    height: 115px;
                 }
             }
             .occupation {
-                padding-top: 1.5rem;
+                padding-top: 1.8rem;
                 h3 {
                     margin: auto;
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                 }
                 p {
                     margin: auto;
                     color: gray;
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                 }
             }
         }
     }
     &-bio {
-        margin-top: 50px;
-        font-size: 1.5rem;
+        margin-top: 100px;
+        font-size: 1.8rem;
         .info {
             margin-top: 10px;
             p {
