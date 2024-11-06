@@ -18,13 +18,13 @@
     justify-content: center;
     margin-top: 150px;
     &-items {
-        width: 350px;
+        width: 300px;
         display: flex;
         justify-content: space-evenly;
         color: gray;
         .selected {
             color: black;
         }
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
