@@ -4,8 +4,8 @@ My personal portfolio web app.
 ## Running the app locally:
 ```
 npm i
-npm run build
-npm start
+npm run dev-build
+npm dev-start
 
 ```
 
