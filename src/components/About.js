@@ -33,7 +33,7 @@ const About = () => {
                                 For the past 6 years, I have been working as a software engineer on cloud computing at IBM.
                             </p>
                             <p>
-                                As a full stack engineering, I specialize in developing and deploying conternized micro-services on Openshift Containerized Platform using Kubernetes as a container orchestrator.
+                                As a full stack engineering, I specialize in developing and deploying containerized micro-services on Openshift Containerized Platform using Kubernetes as a container orchestrator.
                                 I have golang experience in developing a go operator which is used to deploy resources required to manage/scale a micro-service on a containerized platform.
                             </p>
                             <p>
