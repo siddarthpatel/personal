@@ -9,13 +9,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --watch",
     "clean": "rm -rf node_modules && rm -rf public/bundle.js && rm -rf public/Resume.pdf",
+    "dev-build": "webpack --watch",
     "dev-start": "webpack-dev-server",
-    "postinstall": "webpack --mode production",
+    "build": "webpack --mode production",
     "start": "node server.js",
-    "prod-build": "webpack --mode production",
-    "prod-start": "npm i --omit=dev && npm run prod-build && node server.js"
+    "prod-start": "npm i --omit=dev && npm run build && node server.js"
   },
   "author": "Siddarth Patel",
   "license": "ISC",
