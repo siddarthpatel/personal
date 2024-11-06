@@ -3,14 +3,22 @@ import Navbar from './Navbar';
 import { useLocation } from 'react-router-dom';
 import resume from '../../public/media/Resume.pdf';
 import { motion } from 'framer-motion';
+import { useMediaQuery } from 'react-responsive';
+
+const useIsMobile = () => {
+    const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
+    return isMobile
+ }
 
 const Contact = () => {
     const match = useLocation()
+    const isMobile = useIsMobile()
+
     return (
         <div>
             <Navbar path={match.pathname} />
             <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration:0.5}}>
-                <div className='contact-container'>
+                <div className={isMobile ? 'contact-container-mobile' : 'contact-container'}>
                     <div className='title'>
                         <p>Contact</p>
                     </div>

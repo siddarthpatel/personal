@@ -12,3 +12,19 @@
         }
     }
 }
+
+.navbar-container-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    &-items {
+        width: 210px;
+        display: flex;
+        justify-content: space-evenly;
+        color: gray;
+        .selected {
+            color: black;
+        }
+        font-size: 1.5rem;
+    }
+}

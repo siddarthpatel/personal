@@ -3,16 +3,23 @@ import pic from '../../public/media/pic.png';
 import Navbar from './Navbar';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useMediaQuery } from 'react-responsive';
+
+const useIsMobile = () => {
+    const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
+    return isMobile
+ }
 
 
 const About = () => {
     const match = useLocation()
+    const isMobile = useIsMobile()
 
     return (
         <div>
             <Navbar path={match.pathname}/>
             <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration:0.5}}>
-                <div className='about-container'>
+                <div className={ isMobile ? 'about-container-mobile': 'about-container'}>
                     <div className='about-container-personal'>
                         <div className='about-container-personal-details'>
                             <div className='pic'>
@@ -24,7 +31,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='about-container-bio'>
+                    <div className={ isMobile ? 'about-container-mobile-bio' : 'about-container-bio'}>
                         <div className='title'>
                             <p>About</p>
                         </div>

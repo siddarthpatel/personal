@@ -44,3 +44,52 @@
         }
     }
 }
+
+.about-container-mobile {
+    margin-top: 125px;
+    position: relative;
+    left: 23%;
+    width: 60%;
+    .about-container-personal {
+        .about-container-personal-details {
+            display: flex;
+            .pic {
+                margin-right: 25px;
+                margin-left: 5px;
+                padding-top: 0.5rem;
+                img {
+                    width: 85px;
+                    height: 85px;
+                }
+            }
+            .occupation {
+                padding-top: 1.5rem;
+                h3 {
+                    margin: auto;
+                    font-size: 1.5rem;
+                }
+                p {
+                    margin: auto;
+                    color: gray;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    &-bio {
+        margin-top: 50px;
+        font-size: 1.5rem;
+        .info {
+            margin-top: 10px;
+            p {
+                color: gray;
+            }
+            a:link {
+                text-decoration: underline;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
