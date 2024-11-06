@@ -7,6 +7,9 @@ const dirname = path.join(__dirname, 'public');
 app.use(express.static(dirname));
 
 app.get('*', (req, res) => {
+    res.setHeader('Cache-Control', 'no-store, must-revalidate')
+    res.setHeader('Pragma', 'no-cache')
+    res.setHeader('Expires', '-1')
     res.sendFile(path.resolve(dirname, 'index.html'))
 }); 
 
