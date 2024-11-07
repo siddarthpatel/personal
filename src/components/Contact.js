@@ -32,11 +32,11 @@ const Contact = () => {
                         </div>
                         <div className='info'>
                             <div>
-                                Resume
-                                <a href={resume} target='_blank'>
+                                Github
+                                <a href='https://github.com/siddarthpatel' target='_blank'>
                                     <div style={{color:'black', margin: 'auto', display:'flex', width:'auto'}}>
-                                        <FaRegFileAlt style={{ paddingTop: '1px', marginRight: '2px'}}/>
-                                        <span>siddarth_patel</span>
+                                        <FaGithub style={{paddingTop: '1px', marginRight: '2px'}}/>
+                                        <span>siddarthpatel</span>
                                     </div>
                                 </a>
                             </div>
@@ -50,10 +50,10 @@ const Contact = () => {
                                 </a>
                             </div>
                             <div>
-                                Github
-                                <a href='https://github.com/siddarthpatel' target='_blank'>
+                                Resume
+                                <a href={resume} target='_blank'>
                                     <div style={{color:'black', margin: 'auto', display:'flex', width:'auto'}}>
-                                        <FaGithub style={{paddingTop: '1px', marginRight: '2px'}}/>
+                                        <FaRegFileAlt style={{ paddingTop: '1px', marginRight: '2px'}}/>
                                         <span>siddarthpatel</span>
                                     </div>
                                 </a>
