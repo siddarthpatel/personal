@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import resume from '../../public/media/Resume.pdf';
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
+import { FaGithub, FaLinkedin, FaRegFileAlt } from 'react-icons/fa';
 
 const useIsMobile = () => {
     const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
@@ -30,9 +31,33 @@ const Contact = () => {
                             <p>Other links</p>
                         </div>
                         <div className='info'>
-                            <div>Linkedin<a href='https://linkedin.com/in/siddarthpatel' target='_blank'>siddarthpatel</a></div>
-                            <div>Resume<a href={resume} target='_blank'>siddarth_patel</a></div>
-                            <div>Github<a href='https://github.com/siddarthpatel' target='_blank'>siddarthpatel</a></div>
+                            <div>
+                                Resume
+                                <a href={resume} target='_blank'>
+                                    <div style={{color:'black', margin: 'auto', display:'flex', width:'auto'}}>
+                                        <FaRegFileAlt style={{ paddingTop: '1px', marginRight: '2px'}}/>
+                                        <span>siddarth_patel</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                Linkedin 
+                                <a href='https://linkedin.com/in/siddarthpatel' target='_blank'>
+                                    <div style={{color:'black', margin: 'auto', display:'flex', width:'auto'}}>
+                                        <FaLinkedin style={{paddingTop: '1px', marginRight: '2px'}}/>
+                                        <span>siddarthpatel</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                Github
+                                <a href='https://github.com/siddarthpatel' target='_blank'>
+                                    <div style={{color:'black', margin: 'auto', display:'flex', width:'auto'}}>
+                                        <FaGithub style={{paddingTop: '1px', marginRight: '2px'}}/>
+                                        <span>siddarthpatel</span>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
