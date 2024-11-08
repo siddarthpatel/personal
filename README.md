@@ -1,5 +1,5 @@
 # Personal
-My personal portfolio web app.
+My personal portfolio web app [siddarthpatel.com](https://siddarthpatel.com). Hosted on [Heroku](https://heroku.com) using a personal domain from [Cloudflare](https://www.cloudflare.com), the web app is served over HTTPS with SSL/TLS certs configured.
 
 ## Running the app locally:
 ```
