@@ -40,12 +40,12 @@ const About = () => {
                                 For the past 6 years, I have been working as a software engineer on cloud computing at IBM.
                             </p>
                             <p>
-                                As a full stack engineering, I specialize in developing and deploying containerized micro-services on Openshift Containerized Platform using Kubernetes as a container orchestrator.
+                                As a full stack engineer, I specialize in developing and deploying containerized micro-services on Openshift Containerized Platform using Kubernetes as a container orchestrator.
                                 I have golang experience in developing a go operator which is used to deploy resources required to manage/scale a micro-service on a containerized platform.
                             </p>
                             <p>
                                 Apart from that, I have experience with devops/automation through building a delivery only Travis CI pipeline to publish IBM products out to the real world and automate onboarding for IBM SaaS solutions
-                                that want to get deployed on hyperscalers like AWS, Azzure and IBM cloud.
+                                on hyperscalers like AWS, Azure and IBM cloud.
                             </p>
                             <p>
                                 Outside of work, I enjoy working on <a href={'https://github.com/org-not-included'} target="_blank">open source projects</a>, and learning about <a href={'https://github.com/siddarthpatel/data-processing'} target="_blank">data engineering.</a>
