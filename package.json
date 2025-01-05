@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf node_modules && rm -rf public/bundle.js && rm -rf public/Resume.pdf",
+    "clean": "rm -rf node_modules && rm -rf public/bundle.js && rm -rf public/Resume-2025.pdf",
     "dev-build": "webpack --watch",
     "dev-start": "webpack-dev-server",
     "build": "webpack --mode production",

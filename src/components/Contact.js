@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import { useLocation } from 'react-router-dom';
 // import resume from '../../public/media/Resume.pdf';
-import resume2 from '../../public/media/sid_resume.pdf';
+import resume2 from '../../public/media/Resume-2025.pdf';
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { FaGithub, FaLinkedin, FaRegFileAlt } from 'react-icons/fa';
