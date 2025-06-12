@@ -25,7 +25,12 @@ const Contact = () => {
                         <p>Contact</p>
                     </div>
                     <div className='info'>
-                        <p>Feel free to send me a message on <a href={'https://x.com/GojoSatoru27788'} target='_blank'>twitter</a> or you can also send me an email at <a href="mailto:siddarthjpatel@gmail.com" style={{color:'black', fontWeight:250}}>siddarthjpatel@gmail.com</a></p>
+                        <p>
+                            Feel free to send me a message on <a href={'https://x.com/GojoSatoru27788'} target='_blank'>twitter</a> or you can also send me an email at <a href="mailto:siddarthjpatel@gmail.com" style={{color:'black', fontWeight:250}}>siddarthjpatel@gmail.com</a>
+                        </p>
+                        <p>
+                            If you're a gamer please do add(sidpatel96) on <a href={'https://discord.com/'} target='_blank'>discord</a>.
+                        </p>
                     </div>
                     <div className='links'>
                         <div className='title'>

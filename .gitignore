@@ -2,3 +2,5 @@ node_modules/
 public/bundle.js
 public/pic.png
 public/Resume.pdf
+.DS_Store
+public/.DS_Store

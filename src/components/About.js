@@ -37,18 +37,15 @@ const About = () => {
                         </div>
                         <div className='info'>
                             <p>
-                                For the past 6 years, I have been working as a software engineer on cloud computing at IBM.
+                                A journey through IBM began with hands-on work with Kubernetes UIs for IBM Cloud Private, blending React, Node.js, and JavaScript to create fast, scalable interfaces. Server-side rendering and Redux delivered snappy, stateful experiences, while Go operators and Docker containers provided the backbone for reliable deployments and orchestration.
                             </p>
                             <p>
-                                As a full stack engineer, I specialize in developing and deploying containerized micro-services on Openshift Containerized Platform using Kubernetes as a container orchestrator.
-                                I have golang experience in developing a go operator which is used to deploy resources required to manage/scale a micro-service on a containerized platform.
+                                Next chapters included orchestrating powerful data streaming and processing platforms. Deploying Apache Flink and Elasticsearch services through custom Go operators ensured a pivotal migration from the deprecated Google Flink Operator to the robust Apache Flink Kubernetes Operator—unlocking new heights for big data workloads.
+                                DevOps and automation became daily companions. CI/CD pipelines, crafted with Travis CI, Jenkins, and GitHub Actions, ensured IBM products moved seamlessly from development to delivery. Bash scripts and automated validation routines kept quality high and manual toil low.
+                                Clouds—AWS, Azure, and IBM Cloud—were tamed with a system designed to make SaaS onboarding effortless. Product data found a home in MongoDB, managed by Go APIs, while Tekton pipelines and Argo CD worked behind the scenes, syncing repositories and registering offerings in cloud marketplaces with a single webhook trigger.
                             </p>
                             <p>
-                                Apart from that, I have experience with devops/automation through building a delivery only Travis CI pipeline to publish IBM products out to the real world and automate onboarding for IBM SaaS solutions
-                                on hyperscalers like AWS, Azure and IBM cloud.
-                            </p>
-                            <p>
-                                Outside of work, I enjoy working on <a href={'https://github.com/org-not-included'} target="_blank">open source projects</a>, and learning about <a href={'https://github.com/siddarthpatel/data-processing'} target="_blank">data engineering.</a>
+                                From building mobile app components with React Native and automating UI tests with Appium, to designing scalable backend systems and streamlining product automation, each chapter at IBM has been about solving complex problems and making technology work smarter, faster, and more intuitively for everyone involved.
                             </p>
                         </div>
                     </div>      
